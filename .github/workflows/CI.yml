@@ -32,4 +32,4 @@ jobs:
           export BUILDKIT_PROGRESS=plain
 
           # Build the image
-          npm build -- --no-cache --image-name "${IMAGE_REPOSITORY}" "${FOLDER_WITH_DOT_DEVCONTAINER}"
+          npm run build -- --no-cache --image-name "${IMAGE_REPOSITORY}" "${FOLDER_WITH_DOT_DEVCONTAINER}"
