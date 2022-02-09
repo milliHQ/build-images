@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "devcontainer build"
+  },
+  "devDependencies": {
+    "@vscode/dev-container-cli": "^0.219.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "common": {
+      "username": "automatic",
+      "uid": "automatic",
+      "gid": "automatic",
+      "installZsh": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true,
+      "nonFreePackages": false
+    },
+    "homebrew": "latest",
+    "terraform": {
+      "version": "latest",
+      "tflint": "none",
+      "terragrunt": "none"
+    },
+    "docker-in-docker": "latest"
+  }
+}
