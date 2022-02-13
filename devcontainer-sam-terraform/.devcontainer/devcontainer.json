@@ -1,5 +1,7 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:14-bullseye",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "common": {
       "username": "automatic",
