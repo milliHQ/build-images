@@ -23,5 +23,8 @@
       "terragrunt": "none"
     },
     "docker-in-docker": "latest"
-  }
+  },
+  "remoteUser": "node",
+  "runArgs": ["--init", "--privileged"],
+  "overrideCommand": false
 }
