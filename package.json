@@ -4,6 +4,6 @@
     "build": "devcontainer build"
   },
   "devDependencies": {
-    "@vscode/dev-container-cli": "^0.219.0"
+    "@vscode/dev-container-cli": "^0.222.0"
   }
 }

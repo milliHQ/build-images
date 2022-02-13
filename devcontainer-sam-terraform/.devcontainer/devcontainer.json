@@ -1,7 +1,5 @@
 {
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:14-bullseye",
   "features": {
     "common": {
       "username": "automatic",
@@ -13,6 +11,10 @@
       "nonFreePackages": false
     },
     "homebrew": "latest",
+    "milliHQ/dev-container-features-homebrew-utils/homebrew-install": {
+      "tap": "aws/tap",
+      "packages": "aws-sam-cli"
+    },
     "terraform": {
       "version": "latest",
       "tflint": "none",
